@@ -9,10 +9,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Dancing Script', cursive;
+    font-size: 1.03em;
 }
 
 main {
-    background: black url('../imagens/fundo.jpg');
+    background: black url('../imagens/fundo2.jpg');
     background-position: center center;
     height: 100vh;
     width: 100vw;
@@ -22,8 +23,10 @@ div#texto {
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     height: 612px;
-    width: 480px;
+    min-width: 480px;
+    max-width: 580px;
     margin: auto;
+    text-align: center;
 }
 
 p {
